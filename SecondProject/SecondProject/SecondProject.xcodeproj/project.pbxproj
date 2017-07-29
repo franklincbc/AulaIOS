@@ -14,6 +14,9 @@
 		81429BDD1F2CD1A800F195DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81429BDC1F2CD1A800F195DD /* Assets.xcassets */; };
 		81429BE01F2CD1A800F195DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81429BDE1F2CD1A800F195DD /* LaunchScreen.storyboard */; };
 		81429BE91F2CD61800F195DD /* Tela1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81429BE81F2CD61800F195DD /* Tela1ViewController.m */; };
+		81429BEC1F2CEFB700F195DD /* VermelhoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81429BEB1F2CEFB700F195DD /* VermelhoViewController.m */; };
+		81429BEF1F2CEFC600F195DD /* CinzaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81429BEE1F2CEFC600F195DD /* CinzaViewController.m */; };
+		81429BF31F2CEFE200F195DD /* VerdeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81429BF21F2CEFE200F195DD /* VerdeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		81429BE11F2CD1A800F195DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81429BE71F2CD61800F195DD /* Tela1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tela1ViewController.h; sourceTree = "<group>"; };
 		81429BE81F2CD61800F195DD /* Tela1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tela1ViewController.m; sourceTree = "<group>"; };
+		81429BEA1F2CEFB700F195DD /* VermelhoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VermelhoViewController.h; sourceTree = "<group>"; };
+		81429BEB1F2CEFB700F195DD /* VermelhoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VermelhoViewController.m; sourceTree = "<group>"; };
+		81429BED1F2CEFC600F195DD /* CinzaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinzaViewController.h; sourceTree = "<group>"; };
+		81429BEE1F2CEFC600F195DD /* CinzaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinzaViewController.m; sourceTree = "<group>"; };
+		81429BF11F2CEFE200F195DD /* VerdeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerdeViewController.h; sourceTree = "<group>"; };
+		81429BF21F2CEFE200F195DD /* VerdeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerdeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +72,13 @@
 			children = (
 				81429BD31F2CD1A800F195DD /* AppDelegate.h */,
 				81429BE71F2CD61800F195DD /* Tela1ViewController.h */,
+				81429BEA1F2CEFB700F195DD /* VermelhoViewController.h */,
+				81429BEB1F2CEFB700F195DD /* VermelhoViewController.m */,
 				81429BE81F2CD61800F195DD /* Tela1ViewController.m */,
+				81429BED1F2CEFC600F195DD /* CinzaViewController.h */,
+				81429BF11F2CEFE200F195DD /* VerdeViewController.h */,
+				81429BF21F2CEFE200F195DD /* VerdeViewController.m */,
+				81429BEE1F2CEFC600F195DD /* CinzaViewController.m */,
 				81429BD41F2CD1A800F195DD /* AppDelegate.m */,
 				81429BD61F2CD1A800F195DD /* ViewController.h */,
 				81429BD71F2CD1A800F195DD /* ViewController.m */,
@@ -155,10 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81429BF31F2CEFE200F195DD /* VerdeViewController.m in Sources */,
 				81429BD81F2CD1A800F195DD /* ViewController.m in Sources */,
 				81429BD51F2CD1A800F195DD /* AppDelegate.m in Sources */,
 				81429BE91F2CD61800F195DD /* Tela1ViewController.m in Sources */,
 				81429BD21F2CD1A800F195DD /* main.m in Sources */,
+				81429BEF1F2CEFC600F195DD /* CinzaViewController.m in Sources */,
+				81429BEC1F2CEFB700F195DD /* VermelhoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

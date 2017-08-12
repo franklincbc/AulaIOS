@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ArrayViewController : UIViewController
+@interface ArrayViewController : UIViewController <UITableViewDataSource, UITableViewDelegate >
+
+@property (nonatomic, strong) NSArray *arraySemana;
+@property (nonatomic, strong) NSArray *arrayDic;
+@property (nonatomic, strong) NSDictionary *dic;
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
 
 @end

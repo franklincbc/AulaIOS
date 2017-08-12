@@ -13,6 +13,8 @@
 		81429C2E1F2CFB7100F195DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81429C2C1F2CFB7100F195DD /* Main.storyboard */; };
 		81429C301F2CFB7100F195DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81429C2F1F2CFB7100F195DD /* Assets.xcassets */; };
 		81429C331F2CFB7100F195DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81429C311F2CFB7100F195DD /* LaunchScreen.storyboard */; };
+		81429C3C1F2D0C3800F195DD /* ArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81429C3B1F2D0C3800F195DD /* ArrayViewController.m */; };
+		81429C3F1F2D19A400F195DD /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81429C3E1F2D19A400F195DD /* CustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		81429C2F1F2CFB7100F195DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81429C321F2CFB7100F195DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81429C341F2CFB7100F195DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81429C3A1F2D0C3800F195DD /* ArrayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayViewController.h; sourceTree = "<group>"; };
+		81429C3B1F2D0C3800F195DD /* ArrayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayViewController.m; sourceTree = "<group>"; };
+		81429C3D1F2D19A400F195DD /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		81429C3E1F2D19A400F195DD /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				81429C261F2CFB7100F195DD /* AppDelegate.h */,
+				81429C3D1F2D19A400F195DD /* CustomTableViewCell.h */,
+				81429C3E1F2D19A400F195DD /* CustomTableViewCell.m */,
 				81429C271F2CFB7100F195DD /* AppDelegate.m */,
+				81429C3A1F2D0C3800F195DD /* ArrayViewController.h */,
+				81429C3B1F2D0C3800F195DD /* ArrayViewController.m */,
 				81429C291F2CFB7100F195DD /* ViewController.h */,
 				81429C2A1F2CFB7100F195DD /* ViewController.m */,
 				81429C2C1F2CFB7100F195DD /* Main.storyboard */,
@@ -152,6 +162,8 @@
 			files = (
 				81429C2B1F2CFB7100F195DD /* ViewController.m in Sources */,
 				81429C281F2CFB7100F195DD /* AppDelegate.m in Sources */,
+				81429C3C1F2D0C3800F195DD /* ArrayViewController.m in Sources */,
+				81429C3F1F2D19A400F195DD /* CustomTableViewCell.m in Sources */,
 				81429C251F2CFB7100F195DD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
